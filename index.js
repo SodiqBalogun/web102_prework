@@ -80,7 +80,7 @@ const raisedCalculate = GAMES_JSON.reduce( (acc, raised) => {
 }, 0);
 
 // set inner HTML using template literal
-raisedCard.innerHTML = `${raisedCalculate.toLocaleString('en-US')}`;
+raisedCard.innerHTML = `$${raisedCalculate.toLocaleString('en-US')}`;
 
 // grab number of games card and set its inner HTML
 const gamesCard = document.getElementById("num-games");
