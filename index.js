@@ -69,9 +69,8 @@ const contributionCalculate = GAMES_JSON.reduce( (acc, backer) => {
     return acc + backer.backers;
 }, 0);
 
-contributionsCard.innerHTML = contributionCalculate;
 // set the inner HTML using a template literal and toLocaleString to get a number with commas
-
+contributionsCard.innerHTML = contributionCalculate.toLocaleString('en-US');
 
 // grab the amount raised card, then use reduce() to find the total amount raised
 const raisedCard = document.getElementById("total-raised");
