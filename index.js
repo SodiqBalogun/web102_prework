@@ -29,27 +29,31 @@ const gamesContainer = document.getElementById("games-container");
 function addGamesToPage(games) {
 
     // loop over each item in the data
-
-
+    for (let i = 0; i < games.length; i++) {
         // create a new div element, which will become the game card
-
-
+        let newDiv = document.createElement("div");
         // add the class game-card to the list
-
+        newDiv.classList.add("game-card");
 
         // set the inner HTML using a template literal to display some info 
         // about each game
         // TIP: if your images are not displaying, make sure there is space
         // between the end of the src attribute and the end of the tag ("/>")
-
+        newDiv.innerHTML = `
+        <img class="game-img" src=${games[i].img} >
+        <h1> ${games[i].name} </p>
+        <p> ${games[i].description} </p>
+        <p> Backers: ${games[i].backers} | Pledged: ${games[i].pledged} </p> 
+    `
 
         // append the game to the games-container
-
+        gamesContainer.append(newDiv);
+    }
 }
 
 // call the function we just defined using the correct variable
 // later, we'll call this function using a different list of games
-
+addGamesToPage(GAMES_JSON);
 
 /*************************************************************************************
  * Challenge 4: Create the summary statistics at the top of the page displaying the
@@ -61,8 +65,11 @@ function addGamesToPage(games) {
 const contributionsCard = document.getElementById("num-contributions");
 
 // use reduce() to count the number of total contributions by summing the backers
+const contributionCalculate = GAMES_JSON.reduce( (acc, backer) => {
+    return acc + backer.backers;
+}, 0);
 
-
+contributionsCard.innerHTML = contributionCalculate;
 // set the inner HTML using a template literal and toLocaleString to get a number with commas
 
 
