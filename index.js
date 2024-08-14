@@ -43,6 +43,7 @@ function addGamesToPage(games) {
         <img class="game-img" src=${games[i].img} >
         <h1> ${games[i].name} </p>
         <p> ${games[i].description} </p>
+        <p> Goal: ${games[i].goal} </p>
         <p> Backers: ${games[i].backers} | Pledged: ${games[i].pledged} </p> 
     `
 
@@ -99,11 +100,15 @@ function filterUnfundedOnly() {
     deleteChildElements(gamesContainer);
 
     // use filter() to get a list of games that have not yet met their goal
-
-
+    const unfunded = GAMES_JSON.filter( (game) => {
+        return game.pledged < game.goal;
+    });
+    
     // use the function we previously created to add the unfunded games to the DOM
-
+    addGamesToPage(unfunded);
 }
+
+filterUnfundedOnly();
 
 // show only games that are fully funded
 function filterFundedOnly() {
