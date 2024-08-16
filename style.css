@@ -47,7 +47,8 @@ body {
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    /*background-color: #a8b0bc;*/
+    background-color:aliceblue;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -57,6 +58,18 @@ body {
 
 #num-contributions, #total-raised, #num-games {
     font-size: 50px;
+}
+
+#first-game {
+    background-color: gold;
+}
+
+#second-game {
+    background-color: rgb(223, 223, 223);
+}
+
+.gamesHeader {
+    
 }
 
 #games-container {
