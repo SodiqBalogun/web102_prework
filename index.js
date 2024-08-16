@@ -155,7 +155,7 @@ const unfundedCount = GAMES_JSON.reduce( (acc, game) => {
 // create a string that explains the number of unfunded games using the ternary operator
 let partString = unfundedCount !== 1 ? "games remain" : "game remains";
 
-const unfundedString = `A total of $${raisedCalculate.toLocaleString('en-US')} has been raised for ${gameCount} games. Currently, 
+const unfundedString = `A total of <span class="amtRaised"> $${ raisedCalculate.toLocaleString('en-US')} </span> has been raised for ${gameCount} games. Currently, 
     ${unfundedCount} ${partString} unfunded. Your contributions are appreciated in funding these games!`;
 
 // create a new DOM element containing the template string and append it to the description container

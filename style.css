@@ -23,7 +23,16 @@ body {
     color: white;
 }
 
-.description-container p {
+.statsHeader {
+    color:#b6c7cf;
+}
+
+.amtRaised {
+    color: lightgreen;
+    font-weight: bold;
+}
+
+#description-container p {
     color: white;
 }
 
