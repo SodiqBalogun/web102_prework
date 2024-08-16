@@ -19,6 +19,14 @@ body {
     margin-top: -10px;
 }
 
+.titleTop {
+    color: white;
+}
+
+.description-container p {
+    color: white;
+}
+
 .stats-container {
     display: flex;
     align-items: baseline;
