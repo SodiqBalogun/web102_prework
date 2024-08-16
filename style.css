@@ -69,7 +69,30 @@ body {
 }
 
 .gamesHeader {
-    
+    color: white;
+}
+
+#unfunded-btn, #funded-btn, #all-btn {
+    background-color: white;
+    color: black;
+    transition:
+            color 0.7s,
+            background-color 0.7s;
+}
+
+#unfunded-btn:hover, #funded-btn:hover, #all-btn:hover {
+    background-color: rgb(82, 160, 179);
+    color: white;
+}
+
+#unfunded-btn:active, #funded-btn:active, #all-btn:active {
+    background-color:rgb(61, 134, 152);
+    color: white;
+}
+
+#unfunded-btn:focus, #funded-btn:focus, #all-btn:focus {
+    background-color:rgb(61, 134, 152);
+    color: white;
 }
 
 #games-container {
