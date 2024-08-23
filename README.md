@@ -25,7 +25,6 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-[seaMonsterCrowdfunding4](https://github.com/user-attachments/assets/edd6607f-1dd8-4256-9cf5-b8a089e9d3ee)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -35,6 +34,7 @@ GIF created with ...
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
+![seaMonsterCrowdfunding4](https://github.com/user-attachments/assets/065a1541-3b87-4fec-8d3f-6d3237808e1b)
 
 Describe any challenges encountered while building the app.
 
