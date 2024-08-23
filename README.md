@@ -24,19 +24,13 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
-
-
+![seaMonsterCrowdfunding4](https://github.com/user-attachments/assets/065a1541-3b87-4fec-8d3f-6d3237808e1b)
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with LiceCap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
-
-## Notes
-![seaMonsterCrowdfunding4](https://github.com/user-attachments/assets/065a1541-3b87-4fec-8d3f-6d3237808e1b)
-
-Describe any challenges encountered while building the app.
 
 ## License
 
