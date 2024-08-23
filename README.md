@@ -25,8 +25,8 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-![](https://imgur.com/xoocHZV.gif)
-![seaMonsterCrowdfunding4](https://github.com/user-attachments/assets/edd6607f-1dd8-4256-9cf5-b8a089e9d3ee.gif)
+[](https://imgur.com/xoocHZV.gif)
+[seaMonsterCrowdfunding4](https://github.com/user-attachments/assets/edd6607f-1dd8-4256-9cf5-b8a089e9d3ee.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -41,7 +41,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] [Sodiq Balogun]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
