@@ -25,7 +25,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-![](https://imgur.com/xoocHZV)
+![](https://imgur.com/xoocHZV.gif)
 ![seaMonsterCrowdfunding4](https://github.com/user-attachments/assets/edd6607f-1dd8-4256-9cf5-b8a089e9d3ee.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
