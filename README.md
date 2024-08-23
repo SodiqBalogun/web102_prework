@@ -26,6 +26,8 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented features:
 
 <img src='https://imgur.com/a/Tx7mPY4.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![seaMonsterCrowdfunding4](https://github.com/user-attachments/assets/edd6607f-1dd8-4256-9cf5-b8a089e9d3ee)
+
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
 <!-- Recommended tools:
